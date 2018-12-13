@@ -5,6 +5,10 @@
     <string name="action_share">Share</string>
     <string name="title_top">Top Fragment</string>
     <string-array name="pizzas">
+        <string name="home_tab">Home</string>
+        <string name="pizza_tab">Pizzas</string>
+        <string name="pasta_tab">Pasta</string>
+        <string name="store_tab">Stores</string>
         <item>Diavolo</item>
         <item>Fungi</item>
     </string-array>
