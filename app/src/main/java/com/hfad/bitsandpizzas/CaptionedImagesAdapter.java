@@ -50,7 +50,7 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
         return new ViewHolder(cv);
     }
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position){
+    public void onBindViewHolder(ViewHolder holder, final int position){
         CardView cardView = holder.cardView;
         ImageView imageView = (ImageView)cardView.findViewById(R.id.info_image);
         Drawable drawable = ContextCompat.getDrawable(cardView.getContext(), imageIds[position]);
