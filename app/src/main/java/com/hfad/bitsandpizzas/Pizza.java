@@ -7,14 +7,18 @@ public class Pizza {
             new Pizza("Diavolo", R.drawable.diavolo),
             new Pizza("Funghi", R.drawable.funghi)
     };
+
     private Pizza(String name, int imageResourceId) {
+
         this.name = name;
         this.imageResourceId = imageResourceId;
     }
+
     public String getName() {
 
         return name;
     }
+
     public int getImageResourceId() {
 
         return imageResourceId;
